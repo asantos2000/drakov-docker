@@ -1,1 +1,1 @@
-docker run --rm -it --name drakov-mock -v $PWD/doc:/tmp -p 5000:3000 adsantos/drakov:0.0.1 drakov -f api.md --public --watch --discover
+docker run --rm -it --name drakov-mock -v $PWD/doc:/tmp -p 5000:3000 adsantos/drakov drakov -f api.md --public --watch --discover
