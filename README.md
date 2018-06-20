@@ -7,13 +7,13 @@ Mock server that implements the [API Blueprint](http://apiblueprint.org/) specif
 ## Building
 
 ```bash
-docker build -t adsantos/drakov:0.0.1 .
+docker build -t adsantos/drakov .
 ```
 
 ## Running
 
 ```bash
-docker run --rm -it -v $PWD/doc:/tmp -p 5000:3000 adsantos/drakov:0.0.1 drakov -f api.md --public --watch --discover
+docker run --rm -it -v $PWD/doc:/tmp -p 3000:3000 adsantos/drakov drakov -f api.md --public --watch --discover
 ```
 
 ## Github repo
